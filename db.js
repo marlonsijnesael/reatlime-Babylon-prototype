@@ -1,13 +1,13 @@
 const clientId = String((Math.random() * 10000000).toFixed(0))
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyBTGRY2hWp74cE4riowTdcmTUWjhCW6xzc',
-  authDomain: 'test-d0b95.firebaseapp.com',
-  projectId: 'test-d0b95',
-  storageBucket: 'test-d0b95.appspot.com',
-  messagingSenderId: '384168236893',
-  appId: '1:384168236893:web:3cacfe5f912b8dac017ab4',
-  measurementId: 'G-9B4LGL7VZY'
+  apiKey: '',
+  authDomain: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
+  measurementId: ''
 }
 
 // Initialize Firebase
