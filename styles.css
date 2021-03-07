@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#renderCanvas {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn {
+    z-index: 100;
+    position: absolute;
+    bottom: 10vh;
+    right: 50px;
+}
+
+.btnSave {
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
+    right: 400px;
+}
+
+canvas {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.content {
+    background: #fff;
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 10px 120px 10px 10px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1)
+}
+
+button {
+    border: 0;
+    background: #fff;
+    border-radius: 10px;
+    padding: 13px;
+    width: 14%;
+    box-shadow: -1px 0px 1px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-family: ubuntu;
+    letter-spacing: 1px;
+    color: #999;
+}
